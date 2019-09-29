@@ -1,3 +1,7 @@
 language: java
 jdk: openjdk8
 install: true
+script:
+- ./configure
+- make -j8
+- make travis-test

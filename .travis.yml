@@ -2,7 +2,7 @@ language: java
 jdk: openjdk13
 install: true
 os: linux
-
+mvn test -B
 deploy:
     - provider: s3
       access_key_id: $AWS_ACCESS

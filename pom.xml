@@ -13,8 +13,8 @@
 		<artifactId>jacoco-maven-plugin</artifactId>
 		<version>0.8.2</version>
 		<executions>
-			<execution>ld>
-  <plugin
+			<execution>
+  <plugin>
 				<goals>
 					<goal>prepare-agent</goal>
 				</goals>
